@@ -1,7 +1,7 @@
 package selenium_basics;
 
-public class HandleBrowserCommands extends Base{
-	
+public class HandleBrowserCommands extends Base {
+
 	public void verifyBrowserCommands() {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
@@ -11,7 +11,7 @@ public class HandleBrowserCommands extends Base{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HandleBrowserCommands handleBrowserCommands=new HandleBrowserCommands();
+		HandleBrowserCommands handleBrowserCommands = new HandleBrowserCommands();
 		handleBrowserCommands.initializeReturn();
 		handleBrowserCommands.verifyBrowserCommands();
 	}
