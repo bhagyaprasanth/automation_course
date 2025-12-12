@@ -25,7 +25,7 @@ public class HandlingTables extends Base {
 
 	public static void main(String[] args) {
 		HandlingTables handlingTables = new HandlingTables();
-		handlingTables.initializeReturn();
+		handlingTables.initializeBrowser();
 		handlingTables.verifyTables();
 	}
 }

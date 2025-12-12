@@ -7,14 +7,21 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Base {
 	public WebDriver driver;
 
-	public void initializeReturn() {
-		// driver=new ChromeDriver();
-		driver = new FirefoxDriver();
+	public void initializeBrowser() {
+		driver = new ChromeDriver();
+//		driver = new FirefoxDriver();
 		driver.get("https://selenium.qabible.in/");
 		driver.manage().window().maximize();
 //		driver.manage().window().minimize();
 	}
 
+	public void initializeFirefoxBrowser() {
+//		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
+		driver.get("https://selenium.qabible.in/");
+		driver.manage().window().maximize();
+//		driver.manage().window().minimize();
+	}
 	public void closeBrowser() {
 		// driver.close();//to close a tab
 		driver.quit();// to close the window
@@ -22,7 +29,7 @@ public class Base {
 
 	public static void main(String args[]) {
 		Base base = new Base();
-		base.initializeReturn();
+		base.initializeBrowser();
 		// base.closeBrowser();
 	}
 }

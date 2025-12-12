@@ -19,9 +19,8 @@ public class HandleWebElements extends Base {
 
 	public static void main(String[] args) {
 		HandleWebElements handleWebElements = new HandleWebElements();
-		handleWebElements.initializeReturn();
+		handleWebElements.initializeBrowser();
 		handleWebElements.verifyCommands();
-
 	}
 
 }

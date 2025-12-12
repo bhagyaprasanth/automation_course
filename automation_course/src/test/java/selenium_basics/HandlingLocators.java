@@ -30,7 +30,7 @@ public class HandlingLocators extends Base {
 
 	public static void main(String[] args) {
 		HandlingLocators handlingLocators = new HandlingLocators();
-		handlingLocators.initializeReturn();
+		handlingLocators.initializeBrowser();
 
 	}
 

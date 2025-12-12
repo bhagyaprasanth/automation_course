@@ -39,7 +39,7 @@ public class HandlingDropdowns extends Base {
 
 	public static void main(String[] args) {
 		HandlingDropdowns handlingDropdowns = new HandlingDropdowns();
-		handlingDropdowns.initializeReturn();
+		handlingDropdowns.initializeBrowser();
 		// handlingDropdowns.verifyDropdown();
 		//handlingDropdowns.verifyCheckBoxes();
 		handlingDropdowns.verifyRadioButton();

@@ -10,7 +10,6 @@ public class HandleNavigationCommands extends Base {
 
 	public static void main(String[] args) {
 		HandleNavigationCommands handleNavigationCommands = new HandleNavigationCommands();
-		handleNavigationCommands.initializeReturn();
 		handleNavigationCommands.verifyNavigationCommands();
 	}
 
