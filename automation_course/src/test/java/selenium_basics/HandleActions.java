@@ -51,6 +51,7 @@ public class HandleActions extends Base {
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
+//		handleActions.closeBrowser();
 	}
 
 }
