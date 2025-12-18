@@ -10,7 +10,7 @@ public class Executor extends Base {
 		WebElement showMessageButton = driver.findElement(By.xpath("//button[@id='button-one']"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", showMessageButton);
-		js.executeScript("window.scrollBy(0,500)", "");//scrollBy -  relative scrolling
+		js.executeScript("window.scrollBy(0,500)", "");// scrollBy - relative scrolling
 		// js.executeScript("window.scrollBy(0,0)", "");
 		// //System.out.println(js.executeScript("return window.pageYOffset"));
 		// js.executeScript("window.scrollBy(200,300)", "");
@@ -20,7 +20,7 @@ public class Executor extends Base {
 	}
 
 	public static void main(String[] args) {
-		Executor executor=new Executor();
+		Executor executor = new Executor();
 		executor.initializeBrowser();
 		executor.verifyJavascriptExecutor();
 	}
