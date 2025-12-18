@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-18T09:49:43 IST" name="Default suite" finished-at="2025-12-18T09:49:43 IST" duration-ms="143">
+    <groups>
+    </groups>
+    <test started-at="2025-12-18T09:49:43 IST" name="Default test" finished-at="2025-12-18T09:49:43 IST" duration-ms="143">
+      <class name="selenium_basics.TestNGAnnotations">
+        <test-method is-config="true" signature="beforeSuiteExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="beforeSuiteExecution" finished-at="2025-12-18T09:49:43 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteExecution -->
+        <test-method is-config="true" signature="beforeTestExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="beforeTestExecution" finished-at="2025-12-18T09:49:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestExecution -->
+        <test-method is-config="true" signature="beforeClassExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="beforeClassExecution" finished-at="2025-12-18T09:49:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassExecution -->
+        <test-method is-config="true" signature="beforeMethodExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="beforeMethodExecution" finished-at="2025-12-18T09:49:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method signature="verifyTestCase()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="verifyTestCase" finished-at="2025-12-18T09:49:43 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCase -->
+        <test-method is-config="true" signature="afterMethodExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="afterMethodExecution" finished-at="2025-12-18T09:49:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+        <test-method is-config="true" signature="afterClassExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="afterClassExecution" finished-at="2025-12-18T09:49:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassExecution -->
+        <test-method is-config="true" signature="afterTestExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:43 IST" name="afterTestExecution" finished-at="2025-12-18T09:49:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestExecution -->
+        <test-method is-config="true" signature="afterSuiteExecution()[pri:0, instance:selenium_basics.TestNGAnnotations@24569dba]" started-at="2025-12-18T09:49:44 IST" name="afterSuiteExecution" finished-at="2025-12-18T09:49:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteExecution -->
+      </class> <!-- selenium_basics.TestNGAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
